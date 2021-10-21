@@ -4,11 +4,7 @@
 
 void start()
 {
-    //capture default palette
-    lospec_palettes[0].palette[0] = PALETTE[0];
-    lospec_palettes[0].palette[1] = PALETTE[1];
-    lospec_palettes[0].palette[2] = PALETTE[2];
-    lospec_palettes[0].palette[3] = PALETTE[3];
+    set_palette(0,1);
 }
 
 void update () 

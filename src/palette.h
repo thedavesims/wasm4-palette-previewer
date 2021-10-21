@@ -9,7 +9,7 @@ struct palette {
 // Some palettes re-arranged from lightest to darkest for consistency
 struct palette lospec_palettes[] = {
     {
-        .palette = {0x0, 0x0, 0x0, 0x0},
+        .palette = {0xe0f8cf, 0x86c06c, 0x306850, 0x071821},
         .name = "Default",
         .author = "WASM-4",
     },
